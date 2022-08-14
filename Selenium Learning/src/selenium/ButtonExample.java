@@ -15,7 +15,7 @@ public class ButtonExample {
 		WebDriver driver= new ChromeDriver();
 		driver.get("http://www.leafground.com/pages/Button.html");
 		
-		//1, Get the xy position
+		//1, Get the xy position//
 		WebElement getPositionButton=driver.findElement(By.id("position"));
 		
 		Point xypoint=getPositionButton.getLocation();

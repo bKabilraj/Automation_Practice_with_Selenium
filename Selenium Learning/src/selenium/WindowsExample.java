@@ -20,13 +20,42 @@ public class WindowsExample {
 		
 		WebElement firstButton=driver.findElement(By.id("home"));
 		firstButton.click();
-		
 		Set<String> handles= driver.getWindowHandles();
 		
 		for (String newWindow : handles) {
 			driver.switchTo().window(newWindow);
 		}
 
+		WebElement editbox=driver.findElement(
+				By.xpath("//*[@id=\'post-153\']/div[2]/div/ul/li[1]/a/img"));
+		editbox.click();
+		
+		driver.close();
+		
+		driver.switchTo().window(oldWindow);
+		
+		//02
+		//WebElement openMultiple=driver.findElement(
+		//		By.xpath("//*[@id=\'contentblock\']/section/div[2]/div/div/button"));
+		//openMultiple.click();
+		
+		//int numberOfWindows= driver.getWindowHandles().size();
+		//System.out.println("No of windows opened:" + numberOfWindows);
+		
+		
+		//03
+		WebElement closeWindowExpect =driver.findElement(By.id("color"));
+		closeWindowExpect.click();
+		
+		Set<String> newWindowHandles=driver.getWindowHandles();
+		
+		for (String allWindows : newWindowHandles) {
+		if (!allWindows.equals(oldWindow)) {
+			driver.switchTo().window(allWindows);
+			driver.close();
+		}
+		}
+		driver.quit();
 		}
 		
 	

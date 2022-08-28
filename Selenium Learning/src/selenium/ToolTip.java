@@ -15,7 +15,7 @@ public class ToolTip {
 		
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://jqueryui.com/tooltip/");
-		
+		 driver.switchTo().frame(0);
 		WebElement yourAge=driver.findElement(By.id("age"));
 		
 		String toolTipText = yourAge.getAttribute("title");

@@ -1,33 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="1" total="20" passed="19" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-17T13:02:01 IST" name="Default suite" finished-at="2022-09-17T13:02:25 IST" duration-ms="23884">
+  <suite started-at="2022-09-18T20:13:43 IST" name="TESt Suite" finished-at="2022-09-18T20:13:43 IST" duration-ms="283">
     <groups>
     </groups>
-    <test started-at="2022-09-17T13:02:01 IST" name="Default test" finished-at="2022-09-17T13:02:25 IST" duration-ms="23884">
-      <class name="testNGPractice.SuiteExample">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testNGPractice.SuiteExample@769f71a9]" started-at="2022-09-17T13:01:58 IST" name="launchBrowser" finished-at="2022-09-17T13:02:01 IST" duration-ms="2238" status="PASS">
+    <test started-at="2022-09-18T20:13:43 IST" name="Test cases" finished-at="2022-09-18T20:13:43 IST" duration-ms="283">
+      <class name="testNGPractice.SampleTestCase">
+        <test-method signature="firstTestCase()[pri:0, instance:testNGPractice.SampleTestCase@7adda9cc]" started-at="2022-09-18T20:13:43 IST" name="firstTestCase" finished-at="2022-09-18T20:13:43 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="openBing()[pri:0, instance:testNGPractice.SuiteExample@769f71a9]" started-at="2022-09-17T13:02:01 IST" name="openBing" finished-at="2022-09-17T13:02:03 IST" duration-ms="2664" status="PASS">
+        </test-method> <!-- firstTestCase -->
+        <test-method signature="fourthTestCase()[pri:0, instance:testNGPractice.SampleTestCase@7adda9cc]" started-at="2022-09-18T20:13:43 IST" name="fourthTestCase" finished-at="2022-09-18T20:13:43 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBing -->
-        <test-method signature="openGoogle()[pri:0, instance:testNGPractice.SuiteExample@769f71a9]" started-at="2022-09-17T13:02:03 IST" name="openGoogle" finished-at="2022-09-17T13:02:07 IST" duration-ms="3591" status="PASS">
+        </test-method> <!-- fourthTestCase -->
+        <test-method signature="secondTestCase()[pri:0, instance:testNGPractice.SampleTestCase@7adda9cc]" started-at="2022-09-18T20:13:43 IST" name="secondTestCase" finished-at="2022-09-18T20:13:43 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openGoogle -->
-        <test-method signature="openYahoo()[pri:0, instance:testNGPractice.SuiteExample@769f71a9]" started-at="2022-09-17T13:02:07 IST" name="openYahoo" finished-at="2022-09-17T13:02:25 IST" duration-ms="17573" status="PASS">
+        </test-method> <!-- secondTestCase -->
+        <test-method signature="thirdTestCase()[pri:0, instance:testNGPractice.SampleTestCase@7adda9cc]" started-at="2022-09-18T20:13:43 IST" name="thirdTestCase" finished-at="2022-09-18T20:13:43 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openYahoo -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNGPractice.SuiteExample@769f71a9]" started-at="2022-09-17T13:02:25 IST" name="closeBrowser" finished-at="2022-09-17T13:02:25 IST" duration-ms="323" status="PASS">
+        </test-method> <!-- thirdTestCase -->
+      </class> <!-- testNGPractice.SampleTestCase -->
+      <class name="testNGPractice.DriverCar">
+        <test-method signature="startTheCar()[pri:0, instance:testNGPractice.DriverCar@7c0c77c7]" started-at="2022-09-18T20:13:43 IST" name="startTheCar" finished-at="2022-09-18T20:13:43 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- testNGPractice.SuiteExample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- startTheCar -->
+        <test-method signature="putFirstGear()[pri:1, instance:testNGPractice.DriverCar@7c0c77c7]" started-at="2022-09-18T20:13:43 IST" name="putFirstGear" finished-at="2022-09-18T20:13:43 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putFirstGear -->
+        <test-method signature="putSecondGear()[pri:2, instance:testNGPractice.DriverCar@7c0c77c7]" started-at="2022-09-18T20:13:43 IST" name="putSecondGear" finished-at="2022-09-18T20:13:43 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putSecondGear -->
+        <test-method signature="putThirdGear()[pri:3, instance:testNGPractice.DriverCar@7c0c77c7]" started-at="2022-09-18T20:13:43 IST" name="putThirdGear" finished-at="2022-09-18T20:13:43 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putThirdGear -->
+        <test-method signature="putFourthGear()[pri:4, instance:testNGPractice.DriverCar@7c0c77c7]" started-at="2022-09-18T20:13:43 IST" name="putFourthGear" finished-at="2022-09-18T20:13:43 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putFourthGear -->
+      </class> <!-- testNGPractice.DriverCar -->
+      <class name="testNGPractice.SkipTestCase">
+        <test-method signature="startTheCar()[pri:0, instance:testNGPractice.SkipTestCase@5cee5251]" started-at="2022-09-18T20:13:43 IST" name="startTheCar" finished-at="2022-09-18T20:13:43 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTheCar -->
+        <test-method signature="putFirstGear()[pri:1, instance:testNGPractice.SkipTestCase@5cee5251]" started-at="2022-09-18T20:13:43 IST" name="putFirstGear" finished-at="2022-09-18T20:13:43 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putFirstGear -->
+        <test-method signature="putSecondGear()[pri:2, instance:testNGPractice.SkipTestCase@5cee5251]" started-at="2022-09-18T20:13:43 IST" name="putSecondGear" finished-at="2022-09-18T20:13:43 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putSecondGear -->
+        <test-method signature="putThirdGear()[pri:3, instance:testNGPractice.SkipTestCase@5cee5251]" started-at="2022-09-18T20:13:43 IST" name="putThirdGear" finished-at="2022-09-18T20:13:43 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putThirdGear -->
+        <test-method signature="putFourthGear()[pri:4, instance:testNGPractice.SkipTestCase@5cee5251]" started-at="2022-09-18T20:13:43 IST" name="putFourthGear" finished-at="2022-09-18T20:13:43 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putFourthGear -->
+      </class> <!-- testNGPractice.SkipTestCase -->
+      <class name="testNGPractice.DependanciesManagement">
+        <test-method signature="primarySchool()[pri:0, instance:testNGPractice.DependanciesManagement@1ed1993a]" started-at="2022-09-18T20:13:43 IST" name="primarySchool" finished-at="2022-09-18T20:13:43 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- primarySchool -->
+        <test-method signature="secondarySchool()[pri:0, instance:testNGPractice.DependanciesManagement@1ed1993a]" started-at="2022-09-18T20:13:43 IST" name="secondarySchool" finished-at="2022-09-18T20:13:43 IST" depends-on-methods="testNGPractice.DependanciesManagement.primarySchool" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondarySchool -->
+        <test-method signature="advanceLevel()[pri:0, instance:testNGPractice.DependanciesManagement@1ed1993a]" started-at="2022-09-18T20:13:43 IST" name="advanceLevel" finished-at="2022-09-18T20:13:43 IST" depends-on-methods="testNGPractice.DependanciesManagement.secondarySchool" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advanceLevel -->
+        <test-method signature="undergraduate()[pri:0, instance:testNGPractice.DependanciesManagement@1ed1993a]" started-at="2022-09-18T20:13:43 IST" name="undergraduate" finished-at="2022-09-18T20:13:43 IST" depends-on-methods="testNGPractice.DependanciesManagement.advanceLevel" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- undergraduate -->
+        <test-method signature="postgraduate()[pri:0, instance:testNGPractice.DependanciesManagement@1ed1993a]" started-at="2022-09-18T20:13:43 IST" name="postgraduate" finished-at="2022-09-18T20:13:43 IST" depends-on-methods="testNGPractice.DependanciesManagement.undergraduate" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postgraduate -->
+      </class> <!-- testNGPractice.DependanciesManagement -->
+    </test> <!-- Test cases -->
+  </suite> <!-- TESt Suite -->
 </testng-results>
